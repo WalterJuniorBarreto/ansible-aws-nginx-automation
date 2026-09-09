@@ -1,5 +1,5 @@
 # Automated Server Provisioning & Configuration Management with Ansible
-[200~![Ansible](https://img.shields.io/badge/Ansible-E00?style=for-the-badge&logo=ansible&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-E00?style=for-the-badge&logo=ansible&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Linux](https://img.shields.io/badge/Fedora-51A2DA?style=for-the-badge&logo=fedora&logoColor=white)
@@ -113,3 +113,5 @@ Control de secretos: Archivos con extensión *.pem, *.key y el inventario real i
 Idempotencia: La infraestructura se declara como estado deseado. Corridas consecutivas generan changed=0 sin romper configuraciones activas.
 
 Separación de responsabilidades: Tareas aisladas en roles independientes y reutilizables.
+
+```bash
