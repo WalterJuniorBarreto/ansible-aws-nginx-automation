@@ -48,6 +48,9 @@ El proyecto sigue la convención estándar de diseño modular de Ansible:
     └── app/
         ├── files/website.tar.gz
         └── tasks/main.yml
+
+```bash
+
 Requisitos Previos
 Nodo de Control (Local):
 
@@ -114,4 +117,3 @@ Idempotencia: La infraestructura se declara como estado deseado. Corridas consec
 
 Separación de responsabilidades: Tareas aisladas en roles independientes y reutilizables.
 
-```bash
