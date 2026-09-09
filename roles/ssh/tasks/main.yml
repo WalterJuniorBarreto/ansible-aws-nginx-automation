@@ -1,0 +1,6 @@
+---
+- name: Agregar llave publica al usuario ubuntu
+  authorized_key:
+    user: ubuntu
+    state: present
+    key: "{{ lookup('file', 'dummy_key.pub') }}"

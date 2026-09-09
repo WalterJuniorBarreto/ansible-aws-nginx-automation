@@ -1,0 +1,22 @@
+---
+- name: Actualizar cache de apt y paquetes
+  apt:
+    update_cache: yes
+    upgrade: dist
+  become: yes
+- name: Instalar utilidades esenciales y fail2ban
+  apt:
+     name:
+       - curl
+       - vim
+       - git
+       - htop
+       - fail2ban
+     state: present
+  become: yes
+- name: Aseguar que fail2ban este habilitado e iniciado
+  service:
+     name: fail2ban
+     state: started
+     enabled: yes
+  become: yes
